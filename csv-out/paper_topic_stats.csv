@@ -1,0 +1,287 @@
+topic,papers,people,area
+Accountability,13,78,"Fairness, Ethics, and Trust"
+"AI in Law, Justice, Regulation, and Governance",14,71,"Fairness, Ethics, and Trust"
+AI for Social Good,14,65,"Fairness, Ethics, and Trust"
+Consciousness and Philosophy of Mind,12,74,"Fairness, Ethics, and Trust"
+Environmental Impacts of AI,13,80,"Fairness, Ethics, and Trust"
+Explainability and Interpretability in Machine Learning,15,87,"Fairness, Ethics, and Trust"
+Explainability (outside Machine Learning),8,71,"Fairness, Ethics, and Trust"
+Fairness and Bias,12,70,"Fairness, Ethics, and Trust"
+Machine Ethics,16,79,"Fairness, Ethics, and Trust"
+Morality and Value-Based AI,13,73,"Fairness, Ethics, and Trust"
+Philosophical Foundations of AI,10,77,"Fairness, Ethics, and Trust"
+Privacy and Security,11,67,"Fairness, Ethics, and Trust"
+Responsible AI,17,70,"Fairness, Ethics, and Trust"
+Robot Rights,18,72,"Fairness, Ethics, and Trust"
+Safety and Robustness,19,76,"Fairness, Ethics, and Trust"
+Societal Impacts of AI,7,71,"Fairness, Ethics, and Trust"
+Standards and Certification,11,82,"Fairness, Ethics, and Trust"
+Transparency,16,76,"Fairness, Ethics, and Trust"
+Trust,17,83,"Fairness, Ethics, and Trust"
+"Other Topics Related to Fairness, Ethics, or Trust",12,61,"Fairness, Ethics, and Trust"
+3D Computer Vision,17,68,Computer Vision
+Adversarial Attacks on CV Systems,15,75,Computer Vision
+Autonomous Driving,11,71,Computer Vision
+Biometrics,14,83,Computer Vision
+Computer Vision Theory,10,77,Computer Vision
+Explainability in Computer Vision,14,87,Computer Vision
+"Face, Gesture, and Pose Recognition",10,76,Computer Vision
+Image and Video Retrieval,19,64,Computer Vision
+Image and Video Generation,14,59,Computer Vision
+Language and Vision,11,76,Computer Vision
+Machine Learning for Computer Vision,9,68,Computer Vision
+Medical and Biological Imaging,17,65,Computer Vision
+Motion and Tracking,12,72,Computer Vision
+Object Detection and Categorisation,9,75,Computer Vision
+Representation Learning for Computer Vision,21,80,Computer Vision
+Scene Analysis and Understanding,9,76,Computer Vision
+"Segmentation, Grouping, and Shape Analysis",11,87,Computer Vision
+Video Understanding and Activity Analysis,15,64,Computer Vision
+Visual Reasoning and Symbolic Representation,13,78,Computer Vision
+Other Topics in Computer Vision,16,84,Computer Vision
+Constraint Learning and Acquisition,12,83,Constraints and Satisfiability
+Constraint Optimisation,11,83,Constraints and Satisfiability
+Constraint Programming,10,76,Constraints and Satisfiability
+Constraint Satisfaction,9,69,Constraints and Satisfiability
+"Constraints, Data Mining, and Machine Learning",14,68,Constraints and Satisfiability
+Distributed CSP and Optimisation,9,78,Constraints and Satisfiability
+Dynamic Programming,13,58,Constraints and Satisfiability
+Global Constraints,14,67,Constraints and Satisfiability
+Inductive and Co-Inductive Logic Programming,9,72,Constraints and Satisfiability
+Knowledge Compilation,17,70,Constraints and Satisfiability
+Logic Programming,5,79,Constraints and Satisfiability
+Mixed Discrete and Continuous Optimisation,10,68,Constraints and Satisfiability
+Satisfiability,8,72,Constraints and Satisfiability
+Satisfiability Modulo Theories,13,71,Constraints and Satisfiability
+Solvers and Tools,16,85,Constraints and Satisfiability
+Other Topics in Constraints and Satisfiability,18,80,Constraints and Satisfiability
+Anomaly/Outlier Detection,6,90,Data Mining
+Big Data and Scalability,10,84,Data Mining
+Data Compression,14,88,Data Mining
+Data Stream Mining,17,64,Data Mining
+Data Visualisation and Summarisation,8,73,Data Mining
+"Graph Mining, Social Network Analysis, and Community Mining",19,72,Data Mining
+Information Retrieval,17,73,Data Mining
+Intelligent Database Systems,9,71,Data Mining
+Mining Codebase and Software Repositories,12,80,Data Mining
+Mining Heterogeneous Data,14,64,Data Mining
+Mining Spatial and Temporal Data,12,80,Data Mining
+"Mining Visual, Multimedia, and Multimodal Data",17,75,Data Mining
+Mining Semi-Structured Data,9,71,Data Mining
+Personalisation and User Modelling,9,73,Data Mining
+Privacy in Data Mining,16,92,Data Mining
+Recommender Systems,10,65,Data Mining
+Rule Mining and Pattern Mining,18,68,Data Mining
+Web Search,15,60,Data Mining
+Other Topics in Data Mining,11,79,Data Mining
+Cognitive Modelling,8,82,Humans and AI
+Computer-Aided Education,14,82,Humans and AI
+Human Computation and Crowdsourcing,15,58,Humans and AI
+Human-Aware Planning and Behaviour Prediction,10,78,Humans and AI
+Human-Computer Interaction,5,64,Humans and AI
+"Human-Computer Teamwork, Team Formation, and Collaboration",11,56,Humans and AI
+Human-in-the-loop Systems,14,76,Humans and AI
+Human-Machine Interaction Techniques and Devices,8,78,Humans and AI
+Human-Robot/Agent Interaction,17,81,Humans and AI
+Intelligent Virtual Agents,22,73,Humans and AI
+Learning Human Values and Preferences,10,90,Humans and AI
+Planning and Decision Support for Human-Machine Teams,11,58,Humans and AI
+Reinforcement Learning with Human Feedback,9,83,Humans and AI
+"Understanding People: Theories, Concepts, and Methods",22,65,Humans and AI
+User Experience and Usability,18,75,Humans and AI
+User Modelling and Personalisation,15,71,Humans and AI
+Other Topics in Humans and AI,11,85,Humans and AI
+Answer Set Programming,10,71,Knowledge Representation and Reasoning
+Argumentation,8,79,Knowledge Representation and Reasoning
+Automated Reasoning and Theorem Proving,9,74,Knowledge Representation and Reasoning
+"Belief Revision, Update, and Merging",10,92,Knowledge Representation and Reasoning
+Case-Based Reasoning,12,57,Knowledge Representation and Reasoning
+Commonsense Reasoning,9,65,Knowledge Representation and Reasoning
+Description Logics,13,80,Knowledge Representation and Reasoning
+Abductive Reasoning and Diagnosis,14,84,Knowledge Representation and Reasoning
+"Geometric, Spatial, and Temporal Reasoning",14,75,Knowledge Representation and Reasoning
+Knowledge Acquisition,14,85,Knowledge Representation and Reasoning
+Knowledge Graphs and Open Linked Data,15,81,Knowledge Representation and Reasoning
+Knowledge Representation Languages,10,72,Knowledge Representation and Reasoning
+Logic Foundations,9,56,Knowledge Representation and Reasoning
+Non-Monotonic Reasoning,17,67,Knowledge Representation and Reasoning
+Ontologies,13,90,Knowledge Representation and Reasoning
+Preferences,13,78,Knowledge Representation and Reasoning
+Qualitative Reasoning,13,67,Knowledge Representation and Reasoning
+Reasoning about Action and Change,16,75,Knowledge Representation and Reasoning
+Reasoning about Knowledge and Beliefs,19,69,Knowledge Representation and Reasoning
+Semantic Web,14,72,Knowledge Representation and Reasoning
+Verification,15,64,Knowledge Representation and Reasoning
+Other Topics in Knowledge Representation and Reasoning,7,77,Knowledge Representation and Reasoning
+Active Learning,7,78,Machine Learning
+Adversarial Learning and Robustness,16,63,Machine Learning
+Automated Learning and Hyperparameter Tuning,10,70,Machine Learning
+Bayesian Learning,12,72,Machine Learning
+Causal Learning,7,69,Machine Learning
+Classification and Regression,4,64,Machine Learning
+Clustering,10,84,Machine Learning
+Deep Generative Models and Auto-Encoders,16,82,Machine Learning
+Deep Learning Theory,8,74,Machine Learning
+Deep Neural Network Architectures,17,70,Machine Learning
+Deep Neural Network Algorithms,15,73,Machine Learning
+Deep Reinforcement Learning,13,71,Machine Learning
+Dimensionality Reduction/Feature Selection,17,68,Machine Learning
+Distributed Machine Learning,14,78,Machine Learning
+Efficient Methods for Machine Learning,7,63,Machine Learning
+Ensemble Methods,11,73,Machine Learning
+Evaluation and Analysis in Machine Learning,11,76,Machine Learning
+Evolutionary Learning,9,85,Machine Learning
+Federated Learning,11,89,Machine Learning
+Genetic Algorithms,15,75,Machine Learning
+Graph-Based Machine Learning,11,82,Machine Learning
+Imitation Learning and Inverse Reinforcement Learning,14,75,Machine Learning
+Kernel Methods,10,76,Machine Learning
+Learning Preferences or Rankings,14,78,Machine Learning
+Learning Theory,10,79,Machine Learning
+Lifelong and Continual Learning,13,72,Machine Learning
+Meta-Learning,10,78,Machine Learning
+"Model Adaptation, Compression, and Distillation",18,58,Machine Learning
+Multi-Class/Multi-Label Learning and Extreme Classification,11,73,Machine Learning
+Multi-Instance/Multi-View Learning,16,61,Machine Learning
+Multimodal Learning,11,75,Machine Learning
+Neuro-Symbolic Methods,14,93,Machine Learning
+Online Learning and Bandits,11,81,Machine Learning
+Optimisation in Machine Learning,6,73,Machine Learning
+Privacy-Aware Machine Learning,20,62,Machine Learning
+Quantum Machine Learning,12,75,Machine Learning
+Reinforcement Learning Algorithms,8,97,Machine Learning
+Reinforcement Learning Theory,13,75,Machine Learning
+Relational Learning,8,65,Machine Learning
+Representation Learning,11,74,Machine Learning
+Scalability of Machine Learning Systems,14,79,Machine Learning
+Semi-Supervised Learning,13,63,Machine Learning
+Time-Series and Data Streams,14,63,Machine Learning
+"Transfer, Domain Adaptation, and Multi-Task Learning",11,77,Machine Learning
+Unsupervised and Self-Supervised Learning,17,63,Machine Learning
+Other Topics in Machine Learning,15,79,Machine Learning
+Agent Theories and Models,12,76,Multiagent Systems
+Agent-Based Simulation and Complex Systems,19,65,Multiagent Systems
+Algorithmic Game Theory,13,64,Multiagent Systems
+"Communication, Coordination, and Collaboration",19,70,Multiagent Systems
+Behavioural Game Theory,14,85,Multiagent Systems
+Computational Social Choice,13,56,Multiagent Systems
+"Coordination, Organisations, Institutions, and Norms",11,56,Multiagent Systems
+Distributed Problem Solving,12,76,Multiagent Systems
+Economic Paradigms,9,67,Multiagent Systems
+Engineering Multiagent Systems,7,68,Multiagent Systems
+Fair Division,9,84,Multiagent Systems
+Mechanism Design,7,88,Multiagent Systems
+Multiagent Learning,7,67,Multiagent Systems
+Multiagent Planning,11,72,Multiagent Systems
+Social Networks,14,83,Multiagent Systems
+Swarm Intelligence,13,84,Multiagent Systems
+Voting Theory,11,63,Multiagent Systems
+Other Topics in Multiagent Systems,8,85,Multiagent Systems
+Adversarial Attacks on NLP Systems,9,63,Natural Language Processing
+Conversational AI and Dialogue Systems,11,67,Natural Language Processing
+Discourse and Pragmatics,13,71,Natural Language Processing
+Information Extraction,9,74,Natural Language Processing
+Interpretability and Analysis of NLP Models,18,88,Natural Language Processing
+Language Grounding,14,91,Natural Language Processing
+Large Language Models,6,79,Natural Language Processing
+Lexical Semantics,10,66,Natural Language Processing
+"Linguistic Theories, Cognitive Modelling, and Psycholinguistics",15,74,Natural Language Processing
+Machine Learning for NLP,12,74,Natural Language Processing
+Machine Translation,8,65,Natural Language Processing
+Multilingualism and Linguistic Diversity,11,77,Natural Language Processing
+Natural Language Generation,9,72,Natural Language Processing
+NLP Resources and Evaluation,14,68,Natural Language Processing
+Ontology Induction from Text,20,82,Natural Language Processing
+"Phonology, Morphology, and Word Segmentation",12,72,Natural Language Processing
+Question Answering,7,75,Natural Language Processing
+Sentence-Level Semantics and Textual Inference,10,71,Natural Language Processing
+"Sentiment Analysis, Stylistic Analysis, and Argument Mining",13,67,Natural Language Processing
+Speech and Multimodality,11,67,Natural Language Processing
+Summarisation,18,74,Natural Language Processing
+Syntax and Parsing,11,78,Natural Language Processing
+Text Mining,12,71,Natural Language Processing
+Vision and Language,16,82,Natural Language Processing
+Other Topics in Natural Language Processing,11,60,Natural Language Processing
+Activity and Plan Recognition,12,76,Planning and Search
+Adversarial Search,6,81,Planning and Search
+Classical Planning,14,79,Planning and Search
+Combinatorial Search and Optimisation,13,75,Planning and Search
+"Conformant, Contingent, and Adversarial Planning",8,64,Planning and Search
+"Continual, Online, and Real-Time Planning",11,73,Planning and Search
+Game Playing,9,84,Planning and Search
+Heuristic Search,18,74,Planning and Search
+Human-Aware Planning,10,84,Planning and Search
+Knowledge Acquisition and Representation for Planning,15,73,Planning and Search
+Local Search,12,75,Planning and Search
+Markov Decision Processes,10,80,Planning and Search
+Mixed Discrete/Continuous Planning,11,81,Planning and Search
+Partially Observable and Unobservable Domains,18,74,Planning and Search
+"Plan Execution, Monitoring, and Repair",11,88,Planning and Search
+Planning and Machine Learning,17,78,Planning and Search
+Planning under Uncertainty,21,77,Planning and Search
+Routing,17,80,Planning and Search
+Scheduling,15,54,Planning and Search
+Search and Machine Learning,14,78,Planning and Search
+Search in Planning and Scheduling,15,61,Planning and Search
+Other Topics in Planning and Search,17,75,Planning and Search
+Behaviour Learning and Control for Robotics,8,65,Robotics
+Cognitive Robotics,9,81,Robotics
+Human-Robot Interaction,8,77,Robotics
+"Localisation, Mapping, and Navigation",13,83,Robotics
+Machine Learning for Robotics,11,72,Robotics
+Multimodal Perception and Sensor Fusion,11,68,Robotics
+Multi-Robot Systems,7,62,Robotics
+Optimisation for Robotics,15,68,Robotics
+Robot Manipulation,10,71,Robotics
+Robot Planning and Scheduling,9,66,Robotics
+Other Topics in Robotics,16,84,Robotics
+Approximate Inference,6,85,Uncertainty in AI
+Bayesian Networks,17,73,Uncertainty in AI
+Causality,11,76,Uncertainty in AI
+Decision and Utility Theory,13,77,Uncertainty in AI
+Fuzzy Sets and Systems,14,61,Uncertainty in AI
+Graphical Models,15,79,Uncertainty in AI
+Non-Probabilistic Models of Uncertainty,18,77,Uncertainty in AI
+Probabilistic Modelling,13,92,Uncertainty in AI
+Probabilistic Programming,13,86,Uncertainty in AI
+Randomised Algorithms,11,61,Uncertainty in AI
+Sequential Decision Making,11,69,Uncertainty in AI
+Spatial and Temporal Models of Uncertainty,18,78,Uncertainty in AI
+Stochastic Models and Probabilistic Inference,9,75,Uncertainty in AI
+Stochastic Optimisation,10,90,Uncertainty in AI
+Uncertainty Representations,12,68,Uncertainty in AI
+Other Topics in Uncertainty in AI,12,82,Uncertainty in AI
+Aerospace,14,64,Multidisciplinary Topics
+Artificial Life,12,68,Multidisciplinary Topics
+Arts and Creativity,15,70,Multidisciplinary Topics
+Bioinformatics,16,60,Multidisciplinary Topics
+Blockchain Technology,13,64,Multidisciplinary Topics
+Cognitive Science,11,76,Multidisciplinary Topics
+Computer Games,11,73,Multidisciplinary Topics
+Cyber Security and Privacy,11,71,Multidisciplinary Topics
+Databases,6,68,Multidisciplinary Topics
+Digital Democracy,9,77,Multidisciplinary Topics
+Economics and Finance,17,80,Multidisciplinary Topics
+Education,7,61,Multidisciplinary Topics
+"Energy, Environment, and Sustainability",19,71,Multidisciplinary Topics
+Entertainment,14,86,Multidisciplinary Topics
+Hardware,10,81,Multidisciplinary Topics
+Health and Medicine,7,75,Multidisciplinary Topics
+Humanities,13,68,Multidisciplinary Topics
+Internet of Things,11,67,Multidisciplinary Topics
+Life Sciences,10,84,Multidisciplinary Topics
+Marketing,12,83,Multidisciplinary Topics
+Mobility,17,63,Multidisciplinary Topics
+Neuroscience,17,76,Multidisciplinary Topics
+News and Media,13,82,Multidisciplinary Topics
+Philosophy and Ethics,14,63,Multidisciplinary Topics
+Physical Sciences,16,84,Multidisciplinary Topics
+Quantum Computing,7,65,Multidisciplinary Topics
+Real-Time Systems,14,74,Multidisciplinary Topics
+Smart Cities and Urban Planning,16,65,Multidisciplinary Topics
+Social Sciences,7,67,Multidisciplinary Topics
+Software Engineering,5,78,Multidisciplinary Topics
+Sports,12,78,Multidisciplinary Topics
+Transportation,15,66,Multidisciplinary Topics
+Web and Network Science,15,77,Multidisciplinary Topics
+Other Multidisciplinary Topics,11,72,Multidisciplinary Topics
