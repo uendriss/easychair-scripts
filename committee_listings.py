@@ -1,6 +1,6 @@
 # Script to generate lists of committee members for website and proceedings
 # Also collects names of PC members who should possibly be removed
-# Ulle Endriss, 19 June 2024 (cleaned up on 24 November 2024)
+# Ulle Endriss, 19 June 2024 (cleaned up on 28 November 2024)
 
 from mycsv import *
 from unidecode import unidecode
@@ -14,7 +14,7 @@ review_csv = 'csv-in/review.csv'
 review = read_csv(review_csv)
 
 # headers: member #, name, email, num_bids
-emergency_reviewers_csv = 'csv-in/emergency_reviewers.csv'
+emergency_reviewers_csv = 'csv-in/emergency_reviewer.csv'
 emergency_reviewers = read_csv(emergency_reviewers_csv)
 
 # path to directory where output should be saved

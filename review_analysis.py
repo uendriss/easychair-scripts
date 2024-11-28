@@ -35,7 +35,7 @@ submission_topic_csv = 'csv-in/submission_topic.csv'
 submission_topic = read_csv(submission_topic_csv)
 
 # headers: member #, name, email, num_bids
-emergency_reviewers_csv = 'csv-in/emergency_reviewers.csv'
+emergency_reviewers_csv = 'csv-in/emergency_reviewer.csv'
 emergency_reviewers = read_csv(emergency_reviewers_csv)
 
 # headers: submission #, name, words, score, confidence, text, confidential remarks
