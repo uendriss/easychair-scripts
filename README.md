@@ -8,13 +8,30 @@ For more ambitious development projects to build tools for conference management
 
 ## Various Listings
 
+There are two script for generating various listings, which you might need for the conference website or the production of the proceedings:
+
++ `committee_listings.py`: Separate lists of regular PC members, SPC members, and area chairs. Also shows list of inactive committee members, who you might want to remove from your committee.
+
++ `accepted_listing.py`: List of accepted papers and contact details of authors of accepted papers.
+
+
 ## Anonymised Submission List for Dual Submission Check
 
 Submitting the same paper, or a very similar paper, to two conferences with overlapping reviewing periods is unethical. Large AI conferences routinely exchange anonymised lists of submissions to detect such cases of _dual submission_. The script `anonymous_submissions.py` can be used to generate such a list for your conference.
 
 ## Detecting Placeholder Abstracts
 
+For large conferences, there usually is an abstract deadline a few days before the final submission deadline. Authors usually are required to submit a proper abstract by the first deadline: small updates later on are permissible, but the abstract should give a clear idea of what kind of paper they plan to submit. Submitting a "placeholder abstract" is not allowed.
+
+The script `short_abstracts.py` will order the submissions by abstract length, meaning that a typical placeholder abstract will show up near the top of the list and this can be easily detected.
+
 ## Identifying (Overly) Prolific Authors
+
+It is good practice to set a limit for the number of papers any one author is allowed to submit.
+
+And should you be short of reviewers, you might want to require (some) authors to serve as reviewers. In this case, it makes sense to start by looking through the list of authors with a particularly large number of submissions as possible candidates.
+
+The script `frequent_authors.py` generates a list of authors ordered by number of submissions, annotated with information on whether the author in question is also a PC member.
 
 ## Bidding Statistics
 
@@ -24,6 +41,13 @@ Submitting the same paper, or a very similar paper, to two conferences with over
 
 ## Simple Collusion Detection
 
+For major AI conferences there have been increasing reports of _collusion_ between reviewers and authors: people writing overly favourable reviews for one another, sometimes in exchange for money. This is very difficult to detect, particularly when the collusion ring extends over multiple conferences.
+
+The script `collusion_detection.py` performs two basic checks:
+
++ Check for _two-cycles_, i.e., cases of pairs of people who have been assigned to review each others' papers. Any two-cycles found should be inspected but are by no means a proof of wrong-doing (two-cycles can naturally arise for papers in a relatively narrow research area).
+
++ Check for submissions where a majority of authors and reviewers are all from the same country. Any such case should be inspected but again by no means constitutes a proof of wrong-doing.
 
 ## Submission and Acceptance Statistics
 
@@ -31,7 +55,7 @@ Submitting the same paper, or a very similar paper, to two conferences with over
 
 For ECAI-2024, our satellite workshops had the option to allow the authors of papers rejected from the main conference to have their reviews transferred to a specific workshop, so the organisers of that workshop could decide on acceptance based on those reviews rather than having to solicit their own reviews.
 
-The script `review_transfer.py` will take a list of review transfer requests by authors and produce one list of anonymised reviewes per workshop, which can then be sent to the workshop organisers.
+The script `review_transfer.py` will take a list of review transfer requests by authors and produce one list of anonymised reviews per workshop, which can then be sent to the workshop organisers.
 
 ## Sample Data
 
