@@ -82,19 +82,21 @@ The script `paper_stats.py` will produce basic statistics about the submissions 
 
 As an example, here are the acceptance statistics for ECAI-2024:
 
-> Fairness, Ethics, and Trust -- sub-share 9.9% -- acc-rate 24% -- acc-share 10.2%
-> Computer Vision -- sub-share 14.2% -- acc-rate 21% -- acc-share 12.6%
-> Constraints and Satisfiability -- sub-share 1.6% -- acc-rate 29% -- acc-share 2.0%
-> Data Mining -- sub-share 4.7% -- acc-rate 19% -- acc-share 3.9%
-> Humans and AI -- sub-share 2.8% -- acc-rate 20% -- acc-share 2.4%
-> Knowledge Representation and Reasoning -- sub-share 4.2% -- acc-rate 26% -- acc-share 4.7%
-> Machine Learning -- sub-share 29.1% -- acc-rate 23% -- acc-share 29.0%
-> Multiagent Systems -- sub-share 6.5% -- acc-rate 29% -- acc-share 8.0%
-> Natural Language Processing -- sub-share 11.7% -- acc-rate 23% -- acc-share 11.4%
-> Planning and Search -- sub-share 4.8% -- acc-rate 31% -- acc-share 6.4%
-> Robotics -- sub-share 1.5% -- acc-rate 25% -- acc-share 1.6%
-> Uncertainty in AI -- sub-share 2.8% -- acc-rate 23% -- acc-share 2.8%
-> Multidisciplinary Topics -- sub-share 6.1% -- acc-rate 20% -- acc-share 5.2%
+```
+Fairness, Ethics, and Trust -- sub-share 9.9% -- acc-rate 24% -- acc-share 10.2%
+Computer Vision -- sub-share 14.2% -- acc-rate 21% -- acc-share 12.6%
+Constraints and Satisfiability -- sub-share 1.6% -- acc-rate 29% -- acc-share 2.0%
+Data Mining -- sub-share 4.7% -- acc-rate 19% -- acc-share 3.9%
+Humans and AI -- sub-share 2.8% -- acc-rate 20% -- acc-share 2.4%
+Knowledge Representation and Reasoning -- sub-share 4.2% -- acc-rate 26% -- acc-share 4.7%
+Machine Learning -- sub-share 29.1% -- acc-rate 23% -- acc-share 29.0%
+Multiagent Systems -- sub-share 6.5% -- acc-rate 29% -- acc-share 8.0%
+Natural Language Processing -- sub-share 11.7% -- acc-rate 23% -- acc-share 11.4%
+Planning and Search -- sub-share 4.8% -- acc-rate 31% -- acc-share 6.4%
+Robotics -- sub-share 1.5% -- acc-rate 25% -- acc-share 1.6%
+Uncertainty in AI -- sub-share 2.8% -- acc-rate 23% -- acc-share 2.8%
+Multidisciplinary Topics -- sub-share 6.1% -- acc-rate 20% -- acc-share 5.2%
+```
 
 Here the submission share of an area is the percentage of submissions that belong to that area, and the acceptance share is the corresponding percentage of accepted submissions. 
 
