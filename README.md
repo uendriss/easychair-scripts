@@ -4,7 +4,7 @@ This repository includes a number of simple Python scripts a PC chair of a large
 
 All scripts have been tested with Python 3.12.1 on a Mac.
 
-For more ambitious development projects to build tools for conference management, you might instead want to take the [EasyChair-Extra](https://github.com/COMSOC-Community/easychair-extra) package developed by Simon Rey as a starting point.
+For more ambitious development projects to build tools for conference management, you might instead want to start from the [EasyChair-Extra](https://github.com/COMSOC-Community/easychair-extra) package developed by Simon Rey.
 
 ## Various Listings
 
@@ -34,35 +34,35 @@ The script `frequent_authors.py` generates a list of authors ordered by number o
 
 ## Bidding Statistics
 
-To get a good review assignment, it is a good idea to ask PC members to bid for papers they would like to review.
+To get a high-quality review assignment, it is a good idea to ask PC members to bid for papers they would like to review.
 
-The script `bid_size.py` will display basic statistics on the sizes of bids submitted by PC members. This can be useful while monitoring the bidding process. This data can also be helpful in identifying inactive PC members (who you might want to remove from the committee) and especially flexible PC members (who might be good candidates for the _emergency reviewer pool_).
+The script `bid_size.py` will display basic statistics on the sizes of bids submitted by PC members. This can be useful while monitoring the bidding process. This data can also be helpful in identifying inactive PC members (who you might want to remove from the committee) and especially flexible PC members (who might be good candidates for an _emergency reviewer pool_).
 
 ## Analysis of the Review Assignment
 
 The script `assignment_analysis.py` will report some basic indicators to help you assess the quality of the current review assignment:
 
-+ Proportion of the assignment based on positive bids. It can be useful to report this information to PC members. (My own anecdotal evidence suggests that PC members often have a more pessimistic subjective view on the quality of review assignments than what the objective data would suggest.)
++ Proportion of the assignment based on positive bids. It can be useful to report this information to PC members. (My own anecdotal evidence suggests that PC members often have a more pessimistic subjective view on the quality of review assignments than what seems to be called for in view of the data.)
 
 + List of "unhappy" PC members (with more than one paper assigned to them that they did not bid for). Typically but not always this will be individuals who only bid for a very small number of papers.
 
-+ List of "problematic" papers (with more than one PC member assigned who did not bid for the paper). Such papers should receive some extra attention from you.
++ List of "problematic" papers (with more than one PC member assigned who did not bid for the paper). Having a few such papers is usually unavoidable, but they then should receive some extra attention from you.
 
 The script will also split the assignment file into three separate assignments (PC, SPC, AC), which could be edited separately and then uploaded into EasyChair. This can be useful in case you want to run your own assignment algorithm for some of the three assignment problems.
 
 ## Analysis of Incoming Reviews
 
-You will need to monitor the reviewing process as reviews come in and try to spot problems early. Doing so directly on the EasyChair platform can be difficult for a large conference.
+You will need to monitor the reviewing process as reviews come in and try to spot problems early on. Doing so directly on the EasyChair platform can be difficult for a large conference.
 
 The script `review_analysis.py` can help with some basic monitoring activities:
 
-+ Displaying the number of reviews still missing. (Note that this count might not be entirely accurate once a few extra reviews have been submitted, by individuals who were not required to submit a review for a given paper.)
++ Displaying the number of reviews still missing. (Note that, as currently implemented, this count might not be entirely accurate once a few extra reviews have been submitted by individuals who were not required to submit a review for a given paper, e.g., when an SPC member chips in with a review or when a PC member delegates to more than one subreviewer.)
 
 + Generating a list of PC members with missing reviews, ordered by number of missing reviews. This allows you to tailor your reminder emails to the gravity of the problem caused by a given PC member. (You should definitely avoid sending redundant reminders to those PC members who delivered everything on time.)
 
 + Generating a list of reviews ordered by length. The very shortest reviews almost always are unprofessional reviews, and in some cases you will have to intervene.
 
-+ Generating a list of all confidential comments submitted by PC members. While you won't be able to read all reviews, you should at least try to skim through all confidential comments, as this is where the most serious problems will get signalled and as this might be a way in which PC members try to reach you. It's a good idea to search the file for terms such as "plagiarism", "ethics", or "unprofessional".
++ Generating a list of all confidential comments submitted by PC members. While you won't be able to read all reviews, you should at least try to skim through all confidential comments, as this is where the most serious problems will get signalled and as this might be a way in which PC members try to reach you. It's a good idea to search the file for terms such as "plagiarism", "ethics", "rude", or "unprofessional".
 
 + Displaying simple statistics on review scores. Probably too many reviewers will use borderline scores and you can use this data to estimate the severity of the problem. Towards the end of the reviewing period, this data can be useful when formulating advice for PC members under which circumstances a given paper might be a good candidate for acceptance.
 
@@ -75,6 +75,8 @@ The script `collusion_detection.py` performs two basic checks:
 + Check for _two-cycles_, i.e., cases of pairs of people who have been assigned to review each others' papers. Any two-cycles found should be inspected but are by no means a proof of wrong-doing (two-cycles can naturally arise for papers in a relatively narrow research area).
 
 + Check for submissions where a majority of authors and reviewers are all from the same country. Any such case should be inspected but again by no means constitutes a proof of wrong-doing.
+
+Ideally, the review assignment algorithm would rule out both of these issues from the outset (or give the PC chair the option to formulate a specific policy on such matters), but the EasyChair assignment algorithm currently does not do so.
 
 ## Submission and Acceptance Statistics
 
