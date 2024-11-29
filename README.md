@@ -78,7 +78,7 @@ The script `collusion_detection.py` performs two basic checks:
 
 ## Submission and Acceptance Statistics
 
-The script `paper_stats.py` will produce basic statistics about the submissions (number of submissions, number of submissions by country, number of submissions per area, number of submissions and number of PC members per submission topic, acceptance statistics by area).
+The script `paper_stats.py` will produce basic statistics about the submissions (number of submissions, number of submissions per country, number of submissions per area, number of submissions and number of PC members per submission topic, acceptance statistics by area).
 
 As an example, here are the acceptance statistics for ECAI-2024:
 
